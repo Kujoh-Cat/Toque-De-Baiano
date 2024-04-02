@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap">
+  <title id="title">Toque de Baiano</title>
+ <link rel="icon" href="img/icon.jpg" type="image/png">
+</head>
+<body>
+  <div id="game-container">
+    <div id="tocar_yens">
+    <button id="click-btn" class="shine-effect">Toque!</button>
+    <div id="yens-container">Yens: ¥<span id="yens">0</span></div>
+    </div>
+    <div id="level-container">
+      <div id="evolution-level-container">
+        <p id="evolution-level"><span id="level">0</span>° Grade</p>
+        <button id="upgrade-btn" class="shine-effect">Promover (¥<span id="upgrade-cost">10</span>)</button>
+      </div>
+    <p id="money-per-click">¥1 por clique</p>
+      <div id="bottom-buttons">
+        <ul class="menu">
+          <li><button id="reset-btn" class="shine-effect">Rebirth</button></li>
+          <li><button id="shop-btn" class="shine-effect">Mercado</button></li>
+          <li><button id="missions-btn" class="shine-effect">Missões</button></li>
+          <li><button id="mochila-btn" class="mochila-button">Mochila</button></li>
+        </ul>
+      </div>      
+
+<!-- Adicione um contêiner para a imagem das personagens -->
+<div id="character-container">
+  <img id="character-image" src="" alt="Personagem">
+</div>
+
+<div id="rebirth-screen">
+    <div id="rebirth-content">
+      <h1 id="rebirth-title">Renascimento</h1>
+      <p id="rebirth-description">Redefina seus Status Por:</p>
+      <!-- Adicione outros elementos conforme necessário -->
+
+      <!-- Botão para Renascer -->
+      <button id="rebirth-btn">Renascer</button>
+      
+      <!-- Botão para Voltar -->
+      <button id="back-btn">Voltar</button>
+    </div>
+  </div>
+  
+  <!-- Adicionando a caixa de mensagem -->
+  <div id="message-box">
+    <p id="message-text"></p>
+    <button id="ok-button">OK</button>
+  </div>
+
+  <script src="backup/script.js"></script>
+  <script src="js/classes.js"></script>
+</body>
+</html>
