@@ -18,6 +18,8 @@ body {
 }
 
 #game-container {
+  color: white;
+  background: white;
   text-align: center;
   margin-left: 270px;
   margin-right: -35px; 
@@ -33,6 +35,8 @@ body {
   }
   
   #game-container {
+    color: white;
+    background: white;
     margin-left: 10px;
     margin-right: 10px;
   }
