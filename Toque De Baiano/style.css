@@ -36,7 +36,6 @@ body {
   
   #game-container {
     color: white;
-    background: white;
     margin-left: 10px;
     margin-right: 10px;
   }
@@ -323,6 +322,7 @@ button:active {
 #money-per-click {
   display: inline-block;
   height: auto;
+color: white;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
